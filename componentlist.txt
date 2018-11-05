@@ -1,0 +1,93 @@
+-background-color:
+	.gb-color-primary #fd6234;
+	gb-color-secondary #f45d30;
+-logo:
+	gb-logo-large
+	gb-logo-small
+-input:
+	gb-text-input
+	gb-text-input-outlined-orange
+	gb-text-area
+-icon:
+	gb-icon
+	gb-icon-small
+-icon colors:
+	gb-icon-white
+	gb-icon-white-opacity-50
+	gb-icon-back-opacity-50
+-avatars:
+	gb-avatar
+	gb-avatar-large
+	gb-avatar-medium
+	gb-avatar-small
+	gb-avatar-tiny
+
+----------------------------------------------------------------
+FONT SIZES
+
+--> paragraph(letter spacing:0.5px , font style:regular , align : left ,line-height:52px)
+gb-paragraph-small      :font-size:20px
+gb-paragraph-medium  : font-size:24px
+gb-paragraph-large     :font-size:28px
+
+--> title(Font Family: Montserrat ,Font Style: Bold,Line Height: 49px;Align: Center;Letter Spacing: 2px)
+
+gb-title-large : font-size:40px;fill : solid #ffffff;color:white;
+gb-title-small : 20px
+gb-title-medium: 25 px
+
+--> subtitle
+(Font Family: Montserrat
+Font Style: Bold,Line Height: 27px,Align: Center,Opacity: 50%,Blend:Normal;Fill: Solid #FFFFFF)
+
+gb-subtitle _large: font-size:22px;
+gb-subtitle-medium: font-size:25px
+gb-subtitle-large : 15px
+
+-->label
+(font-family: Montserrat;font-style: normal;font-weight: bold;line-height: normal;letter-spacing: 2px;color: #FFFFFF;)
+gb-label-large : font-size :25.8962px
+gb-label-mediumfont-size :20.8962px
+gb-label-small: font-size :15.8962px
+	
+----------------------------------------------------------------------------------
+
+font-color:
+	gb-text-orange
+	gb-text-white
+
+--------------------------------------------------------------------------------------
+FORM
+
+--> input box
+gb-normaltextbox
+gb-focusedtextbox
+gb-searchbox
+gb-errormessagebox
+
+-->dropdown
+gb-selecteddropdownlist
+gb-normaldropdownlist
+
+--> checkbox
+gb-checkbox
+
+--> optionbutton
+gb-optionbutton
+--------------------------------------------------------------------------------------
+button:
+	gb-btn-primary
+	gb-btn-outlined
+	gb-btn-white
+button size:
+	gb-btn-small
+	gb-btn-medium
+	gb-btn-large
+-------------------------------------------------------------------------------------
+gb-slider
+440px : width-232px
+768px : 400px
+1024px : 542px
+1440px :766px
+slide color :#d3d3d3
+--------------------------------------------------------------------------

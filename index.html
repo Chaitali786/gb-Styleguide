@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type = "text/css">
+        <title >Styleguide Web Page</title>
+        <link rel="stylesheet" type="text/css"href="index.css">
+        <link rel="stylesheet" type="text/css"href="page_layout.css">
+    </head>
+    <body >  
+        <ul>
+            <li><a href="index.html">Small component </a></li>
+            <li><a href="slideshow.html">Silideshow </a></li>
+            <li><a href="card.html">Card & Card list </a></li>
+            <li><a href="navbar.html">Navbar </a></li>     
+        </ul>
+        <svg  style ="display:none;" xmlns="http://www.w3.org/2000/svg">
+            <def>
+                <symbol id="profile-icon" viewBox="0 0 51 51">
+                    <g>
+                        <path d="M46.5858 25.8879C46.5858 37.4337 37.2179 46.7949 25.6604 46.7949C14.1028 46.7949 4.73502 37.4337 4.73502 25.8879C4.73502 14.342 14.1028 4.98087 25.6604 4.98087C37.2179 4.98087 46.5858 14.342 46.5858 25.8879Z"  stroke-width="1.99202"/>
+                        <path d="M31.5897 21.8895C31.5897 25.1636 28.9078 27.846 25.6356 27.846C22.3635 27.846 19.6816 25.1636 19.6816 21.8895C19.6816 18.6154 22.3635 15.933 25.6356 15.933C28.9078 15.933 31.5897 18.6154 31.5897 21.8895Z"  stroke-width="1.99202"/>
+                        <path d="M10.7138 39.7799H40.6074C40.6074 38.8059 40.1348 37.8898 39.193 37.0194C38.2428 36.1413 36.8781 35.374 35.2832 34.7427C32.0925 33.4797 28.2318 32.8578 25.6606 32.8578C23.0894 32.8578 19.2287 33.4797 16.038 34.7427C14.4431 35.374 13.0783 36.1413 12.1282 37.0194C11.1864 37.8898 10.7138 38.8059 10.7138 39.7799Z"  stroke-width="1.99202"/>
+                    </g>
+                </symbol>
+            </def>
+        </svg>
+
+        <div>
+            <div class="component-name" >TextSize</div>
+            <div class="div-box" >
+                <div> gb-title-xxlarge </div> 
+                <div class="section-title gb-title-xxlarge">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> gb-title-xlarge </div> 
+                <div class="section-title gb-title-xlarge">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> gb-title-large </div> 
+                <div class="section-title gb-title-large">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> gb-title-medium</div> 
+                <div class="section-title gb-title-medium">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> gb-title-small </div> 
+                <div class="section-title gb-title-small">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> gb-title-tiny </div> 
+                <div class="section-title gb-title-tiny">Sample Text.</div>
+            </div>
+        </div>
+        <div>
+            <div class="component-name" >Text color</div>
+            <div class="div-box" >
+                <div> white </div> 
+                <div class="section-title gb-text-white">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> white-opacity-50 </div> 
+                <div class="section-title gb-text-white-opacity-50">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> orange </div> 
+                <div class="section-title gb-text-orange">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> dark orange </div> 
+                <div class="section-title gb-text-darkorange">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> dim black </div> 
+                <div class="section-title gb-text-dimblack">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+                <div> black</div> 
+                <div class="section-title gb-text-black">Sample Text.</div>
+                <hr style="width:100%;margin-left:10px;"><br>
+            </div>
+        </div>
+        <div class="component-name" >Paragraph</div>
+        <div class="div-box" >
+            <div > gb-paragraph </div> 
+            <p class="gb-paragraph">Sample Paragraph for the Styleguide Project.
+                Sample Paragraph for the Styleguide Project.
+                Sample Paragraph for the Styleguide Project.
+                Sample Paragraph for the Styleguide Project.
+            </p>
+            <hr style="width:100%;margin-left:10px;"><br>
+        </div>	     
+        <div class="component-name">Form Inputbox
+            <div class="div-box">
+                <div class = "title-text">gb-normal-textbox </div>
+                <div>
+                    <label class="gb-icon-small">
+                        <svg class=" icon gb-icon-orange">
+                        <use xlink:href="#profile-icon"></use>
+                        </svg>
+                        <input type="text"  class="gb-normal-textbox"  value="Name">
+                    </label>
+                </div>
+                <div class = "title-text">gb-disable-textbox </div>
+                <div>
+                    <label class="gb-icon-small">
+                        <svg class=" icon gb-icon-orange">
+                        <use xlink:href="#profile-icon"></use>
+                        </svg>
+                        <input type="text" class="gb-disable-textbox"  value="Fill In Text"/>
+                    </label>
+                    <!--<input type="text" class="gb-disable-textbox"  placeholder="Fill In Text"/>-->
+                </div>
+                
+                <div class = "title-text">gb-focustextbox </div>
+                <div>
+                     <label class="gb-icon-small">
+                        <svg class=" icon gb-icon-orange">
+                        <use xlink:href="#profile-icon"></use>
+                        </svg>
+                        <input  class="gb-focus-box" type="text" value= "  Your Name"  autofocus />
+                    </label>
+                    
+                </div>
+                <div class = "title-text">gb-errormsgbox </div>
+                <div>
+                     <label class="gb-icon-small">
+                        <svg class=" icon gb-icon-orange">
+                        <use xlink:href="#profile-icon"></use>
+                        </svg>
+                        <input  class="gb-errormsgbox" type="text" value= "Error" >
+                        <br><p class="error_msg"> Error Message....</p>
+                    </label>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="component-name">Button Color
+            <div class="div-box">
+                <p class="bottom-space">
+                    gb-btn-primary  : 
+                    <a href="#" class="gb-btn gb-btn-large gb-btn-primary gb-text-white">Get Started</a>
+                </p >
+                <p class="bottom-space">
+                    gb-btn-outlined : 
+                    <a class="gb-btn gb-btn-large gb-btn-outlined gb-text-white">Continue</a>
+                </p>
+                <p class="bottom-space">
+                    gb-btn-white    : 
+                    <a class="gb-btn gb-btn-large gb-btn-white gb-text-orange">Following</a>
+                </p>
+            </div>
+        </div>
+        <div class="component-name">Button Size
+            <div class="div-box">
+                <p class="bottom-space">
+                    gb-btn-large : 
+                    <a class="gb-btn gb-btn-large gb-btn-primary gb-text-white">Get Started</a>
+                </p>
+                <p class="bottom-space">
+                    gb-btn-small : 
+                    <a class="gb-btn gb-btn-small gb-btn-primary gb-text-white">Continue</a>
+                </p>
+                <p class="bottom-space">
+                    gb-btn-circle-large    : 
+                    <button class="gb-btn gb-btn-circle-large gb-btn-primary gb-text-white"></button>
+                </p>
+                <p class="bottom-space">
+                    gb-btn-circle-medium    : 
+                    <button class="gb-btn gb-btn-circle-medium gb-btn-primary gb-text-white"></button>
+                </p>
+                <p class="bottom-space">
+                    gb-btn-circle-large    : 
+                    <button class="gb-btn gb-btn-circle-small gb-btn-primary gb-text-white"></button>
+                </p>
+            </div>
+        </div>
+        <div class="component-name">Color
+            <div class="div-box">
+                <p class="bottom-space">gb-color-primary: <div class="color-box gb-bg-primary"></div></p>
+                <p class="bottom-space">gb-color-secondary: <div class="color-box gb-bg-secondary"></div></p>
+                <p class="bottom-space">gb-color-white: <div class="color-box gb-bg-white"></div></p>
+                </div>
+        </div>
+        <div class="component-name">Avatar
+            <div class ="div-box">
+                <p class="bottom-space">
+                    gb-avatar-large: <img class="gb-avatar gb-avatar-small" src="img/avatar.png">
+                </p>
+                <p class="bottom-space">    
+                    gb-avatar-small : <img class="gb-avatar gb-avatar-large" src="img/avatar.png">
+                </p>
+            </div>
+        </div>
+        <div class="component-name">Logo
+            <div class="div-box" >
+                <p class="bottom-space">
+                    gb-logo-large: <object class="gb-logo-large" data="img/logo/logo-large.svg" type="image/svg+xml"></object>
+                </p>
+                <p class="bottom-space">
+                    gb-logo-small : <object class="gb-logo-small" data="img/logo/logo-small.svg" type="image/svg+xml"></object>
+                </p>
+            </div>
+        </div>
+        <div class="component-name">Icon Color
+            <div class="div-box " >
+                <p class="bottom-space">
+                    gb-icon-white:
+                <div class="gb-icon-large"> <svg class="gb-icon-white" >
+                    <use xlink:href="#profile-icon"></use>
+                    </svg>
+                </div>
+                </p>
+            <p class="bottom-space">
+                gb-icon-orange :
+            <div class="gb-icon-large"><svg class="gb-icon-orange" >
+                <use xlink:href="#profile-icon"></use>
+                </svg>
+            </div>
+            </p>
+        <p class="bottom-space">
+            gb-icon-white-opacity-50 : <div class="gb-icon-large"><svg class="gb-icon-white-opacity-50" >
+        <use xlink:href="#profile-icon"></use>
+        </svg>
+        </div>
+        </p>
+    </div>
+
+</div>
+        <div class="component-name">Icon Size
+            <div class="div-box " >
+            <p class="bottom-space">
+                gb-icon-large:<div class="gb-icon-large"> <svg class="gb-icon-white" >
+                                <use xlink:href="#profile-icon"></use>
+                               </svg>
+                            </div>
+                </p>
+            <p class="bottom-space">
+                gb-icon-medium :<div class="gb-icon-medium"><svg class="gb-icon-white" >
+                                <use xlink:href="#profile-icon"></use>
+                            </svg>
+                                </div>
+            </p>
+            <p class="bottom-space">
+                gb-icon-small :<div class="gb-icon-small"><svg class="gb-icon-white" >
+                                <use xlink:href="#profile-icon"></use>
+                            </svg>
+                            </div>
+            </p>
+            <p class="bottom-space">
+                gb-icon-tiny : <div class="gb-icon-tiny"><svg class="gb-icon-white">
+                                <use xlink:href="#profile-icon"></use>
+                                </svg>
+                                </div>
+            </p>
+            </div>
+
+        </div>
+        <div class="component-name">Round Range Slider
+            <div class="div-box">
+                gb-roundrange-slider
+                <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="gb-slider" id="myRange">
+                <p id="demo">Value:</p>
+                </div>
+            </div>
+        </div>
+        <div class="component-name">Google Map
+        <div id="map"  class="gb-googleMap">
+        </div>
+        </div>
+        <script type="text/javascript" src="scripts/slider.js"></script>
+        <script type="text/javascript" src="scripts/map.js"></script>
+        <script 
+        src="http://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false&key=AIzaSyAFxBSTTS8-q2X2D8ZkF-0QFTH64QjD5eM&callback=myMap" >      
+</script>
+</body>
+</html>
+
