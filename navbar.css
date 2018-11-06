@@ -132,7 +132,7 @@ hr {
     margin-top: -6px;
 }
 
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 1023px) {
     .sidenav {padding-top: 1px;}
     .sidenav .closebtn {right:0px;}
     #topnavAvatar{display: none;}

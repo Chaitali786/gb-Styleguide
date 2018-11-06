@@ -1,0 +1,11 @@
+  <svg  xmlns="http://www.w3.org/2000/svg">
+    <def>
+                <symbol id="card3-icon1" viewBox="0 0 50 50">
+                    <g>
+                    <path d="M16 35C21.3333 29.4772 21.3333 20.5228 16 15" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M30 40C38 31.7157 38 18.2843 30 10"  stroke-width="2" stroke-linecap="round"/>
+                    </g>
+                    </symbol>
+    </def>
+</svg>
+

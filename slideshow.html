@@ -1,186 +1,57 @@
+<!DOCTYPE html>
+<html>
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <title >Styleguide Web Page</title>
-    <link rel="stylesheet" type="text/css"href="index.css">
-    
-    <style>
-
-        body {
-            background: #dae9e9;
-        }
-
-        
-        .gb-slideshow-container{
-            text-align: center;
-            
-        }    
-
-
-
-
-
-
-</style>
+    <script src="scripts/slideshow.js"></script>
+    <title>Styleguide Web Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="page_layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
+
 <body>
-        <ul>
-  <li><a href="index.html">Small component </a></li>
-  <li><a href="slideshow.html">Silideshow </a></li>
-  <li><a href="card.html">Card & Card list </a></li>
-   <li><a href="navbar.html">Navbar </a></li>     
-</ul>
+    <ul>
+        <li><a href="index.html">Small component </a></li>
+        <li><a href="slideshow.html">Silideshow </a></li>
+        <li><a href="card.html">Card & Card list </a></li>
+        <li><a href="navbar.html">Navbar </a></li>
+    </ul>
     <div class="gb-slideshow-container">
-        <svg  xmlns="http://www.w3.org/2000/svg">
-            <def>
-                <symbol id="left-arrow-icon" viewBox="0 0 37 35">
-                    <g>
-<path d="M18.2016 2.7957L3.22559 17.2126L18.2016 30.9087" stroke="#F96332" stroke-width="1.3714" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M3.22534 17.1947L33.1773 17.1947" stroke-width="1.3714" stroke-linecap="round"/>
-                        </g>
-                    </symbol>
-                </def>
-</svg>
 
-<svg   xmlns="http://www.w3.org/2000/svg">
-            <def>
-                <symbol id="right-arrow-icon" viewBox="0 0 37 35">
-                    <g>
-<path d="M18.7994 31.5935L33.7754 17.1765L18.7994 3.48047" stroke="#F96332" stroke-width="1.3714" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M33.7759 17.1945H3.82388" stroke="#F96332" stroke-width="1.3714" stroke-linecap="round"/>
-                        </g>
-                    </symbol>
-                </def>
-</svg>
 
-<div class="img-container">
- 
-  <img id="left-img" src="img/slideshow/img1.png" >
-  <img id="center-img" src="img/slideshow/img2.png" >
-  <img id="right-img" src="img/slideshow/img3.png">
-  
-</div>
-<br>
-        <div class="arrow-container gb-icon-tiny">
-            <svg class="gb-icon-orange" onclick="leftArrow()">
-            <use xlink:href="#left-arrow-icon"></use>
-            </svg>
-             <svg class="gb-icon-orange" onclick="rightArrow()" >
-            <use xlink:href="#right-arrow-icon"></use>
-            </svg>
-        
+        <div class="img-container">
+
+            <img id="left-img" src="img/slideshow/img1.png">
+            <img id="center-img" src="img/slideshow/img2.png">
+            <img id="right-img" src="img/slideshow/img3.png">
+
         </div>
-<div class="gb-paragraph des-text-container">
-<div class="gb-title-medium gb-text-black des-text">Melting ice in Arctic Ocean</div>
-<div class="gb-title-tiny gb-text-grey">James Flinton</div>
+
+        <div class="arrow-container ">
+            <svg class="gb-icon-tiny gb-icon-orange" id="arrow-left">
+                <use xlink:href="svg-def.svg#left-arrow-icon"></use>
+            </svg>
+            <svg class="gb-icon-tiny gb-icon-orange" id="arrow-right">
+                <use xlink:href="svg-def.svg#right-arrow-icon"></use>
+            </svg>
+
+        </div>
+        <div class="des-text-container">
+            <div class="gb-title-medium gb-text-black des-text">Melting ice in Arctic Ocean</div>
+
+            <div class="gb-title-tiny gb-text-grey">James Flinton</div>
+        </div>
+        <div class="dots">
+
+
+        </div>
     </div>
-<div class = "dots">
-  <span class="dot" id="dot1" onclick="dot1()"></span> 
-  <span class="dot" id="dot2" onclick="dot2()"></span> 
-  <span class="dot" id="dot3" onclick="dot3()"></span> 
-</div>
-        </div>
 
-<script>
-    count=1;
-    img = ['img/slideshow/img1.png', 'img/slideshow/img2.png' , 'img/slideshow/img3.png'];
-    function dot1(){
-        
-        $("#left-img").attr("src",img[1]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[2]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[0]).hide().fadeIn(400);
-       
-        
-        $("#dot1").css("background-color","rgb(249,99,50)");
-        $("#dot2").css("background-color","rgb(187,187,187)");
-        $("#dot3").css("background-color","rgb(187,187,187)");
-    }
-     function dot2(){
-        $("#left-img").attr("src",img[0]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[1]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[2]).hide().fadeIn(400);
-        $("#dot1").css("background-color","rgb(187,187,187)");
-        $("#dot2").css("background-color","rgb(249,99,50)");
-        $("#dot3").css("background-color","rgb(187,187,187)");
-    }
-     function dot3(){
-         $("#left-img").attr("src",img[2]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[0]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[1]).hide().fadeIn(400);
-        $("#dot1").css("background-color","rgb(187,187,187)");
-        $("#dot2").css("background-color","rgb(187,187,187)");
-        $("#dot3").css("background-color","rgb(249,99,50)");
-    }
-    
-    function rightArrow(){
-     
-            count++;
-            if (count == 3) count = 0;
-            if (count == 0){
-                
-        $("#left-img").attr("src",img[1]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[2]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[0]).hide().fadeIn(400);
-       
-       
-        
-        $("#dot1").css("background-color","rgb(249,99,50)");
-        $("#dot2").css("background-color","rgb(187,187,187)");
-        $("#dot3").css("background-color","rgb(187,187,187)");
-            };
-             if (count == 1){
-          $("#left-img").attr("src",img[0]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[1]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[2]).hide().fadeIn(400);
-        $("#dot1").css("background-color","rgb(187,187,187)");
-        $("#dot2").css("background-color","rgb(249,99,50)");
-        $("#dot3").css("background-color","rgb(187,187,187)");
-           };
-             if (count == 2){
-           $("#left-img").attr("src",img[2]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[0]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[1]).hide().fadeIn(400);
-        $("#dot1").css("background-color","rgb(187,187,187)");
-        $("#dot2").css("background-color","rgb(187,187,187)");
-        $("#dot3").css("background-color","rgb(249,99,50)");
-            };
 
-      
-    }
-       function leftArrow(){
-     
-            count--;
-            if (count == -1) count = 2;
-                 if (count == 0){
-                
-        $("#left-img").attr("src",img[1]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[2]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[0]).hide().fadeIn(400);
-       
-       
-        
-        $("#dot1").css("background-color","rgb(249,99,50)");
-        $("#dot2").css("background-color","rgb(187,187,187)");
-        $("#dot3").css("background-color","rgb(187,187,187)");
-            };
-             if (count == 1){
-          $("#left-img").attr("src",img[0]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[1]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[2]).hide().fadeIn(400);
-        $("#dot1").css("background-color","rgb(187,187,187)");
-        $("#dot2").css("background-color","rgb(249,99,50)");
-        $("#dot3").css("background-color","rgb(187,187,187)");
-           };
-             if (count == 2){
-           $("#left-img").attr("src",img[2]).hide().fadeIn(400);
-        $("#center-img").attr("src",img[0]).hide().fadeIn(200);
-        $("#right-img").attr("src",img[1]).hide().fadeIn(400);
-        $("#dot1").css("background-color","rgb(187,187,187)");
-        $("#dot2").css("background-color","rgb(187,187,187)");
-        $("#dot3").css("background-color","rgb(249,99,50)");
-            };
-      
-    }
-</script>
 
 </body>
+
+</html>

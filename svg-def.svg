@@ -1,0 +1,45 @@
+<svg  xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="card3-icon1" viewBox="0 0 50 50">
+            <g>
+                <path d="M16 35C21.3333 29.4772 21.3333 20.5228 16 15" stroke-width="2" stroke-linecap="round"/>
+                <path d="M30 40C38 31.7157 38 18.2843 30 10"  stroke-width="2" stroke-linecap="round"/>
+            </g>
+        </symbol>
+
+
+
+        <symbol id="card3-icon2" viewBox="0 0 30 30">
+            <g>
+                <path d="M15 29C7.26791 29 1 22.7341 1 15C1 7.27005 7.26809 1 15 1C22.7319 1 29 7.27005 29 15C29 22.7341 22.7321 29 15 29Z" stroke-width="2"/>
+                <path d="M22 17H14V7"  stroke-width="2"/>
+            </g>
+        </symbol>
+
+        <symbol id="card3-icon3" viewBox="0 0 83 2"  >
+            <g >
+                <path opacity="0.3" d="M1.49854 1.48647H81.9669"  stroke-linecap="square"/>
+            </g>
+        </symbol>
+        <symbol id="left-arrow-icon" viewBox="0 0 37 35">
+            <g>
+                <path d="M18.2016 2.7957L3.22559 17.2126L18.2016 30.9087" stroke="#F96332" stroke-width="1.3714" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3.22534 17.1947L33.1773 17.1947" stroke-width="1.3714" stroke-linecap="round"/>
+            </g>
+        </symbol>
+        <symbol id="right-arrow-icon" viewBox="0 0 37 35">
+            <g>
+                <path d="M18.7994 31.5935L33.7754 17.1765L18.7994 3.48047" stroke="#F96332" stroke-width="1.3714" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M33.7759 17.1945H3.82388" stroke="#F96332" stroke-width="1.3714" stroke-linecap="round"/>
+            </g>
+        </symbol>
+        <symbol id="profile-icon" viewBox="0 0 51 51">
+            <g>
+                <path d="M46.5858 25.8879C46.5858 37.4337 37.2179 46.7949 25.6604 46.7949C14.1028 46.7949 4.73502 37.4337 4.73502 25.8879C4.73502 14.342 14.1028 4.98087 25.6604 4.98087C37.2179 4.98087 46.5858 14.342 46.5858 25.8879Z"  stroke-width="1.99202"/>
+                <path d="M31.5897 21.8895C31.5897 25.1636 28.9078 27.846 25.6356 27.846C22.3635 27.846 19.6816 25.1636 19.6816 21.8895C19.6816 18.6154 22.3635 15.933 25.6356 15.933C28.9078 15.933 31.5897 18.6154 31.5897 21.8895Z"  stroke-width="1.99202"/>
+                <path d="M10.7138 39.7799H40.6074C40.6074 38.8059 40.1348 37.8898 39.193 37.0194C38.2428 36.1413 36.8781 35.374 35.2832 34.7427C32.0925 33.4797 28.2318 32.8578 25.6606 32.8578C23.0894 32.8578 19.2287 33.4797 16.038 34.7427C14.4431 35.374 13.0783 36.1413 12.1282 37.0194C11.1864 37.8898 10.7138 38.8059 10.7138 39.7799Z"  stroke-width="1.99202"/>
+            </g>
+        </symbol>
+    </defs>
+
+</svg>

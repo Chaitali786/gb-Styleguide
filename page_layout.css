@@ -1,8 +1,8 @@
-.bottom-space{
-     margin-bottom: 80px;
-}
-.component-name{
-    font-size:25px;
+body{
+    font-family: "Montserrat";
+
+    margin: 0;
+
 }
 ul {
     list-style-type: none;
@@ -29,6 +29,7 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+
 .page-title-row
 {
     background-color: white;
@@ -49,7 +50,9 @@ li a:hover {
 }
 .title-text
 {
-    
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      20px;
+    margin: 40px;
 }
 .body_background_color
 {
@@ -67,4 +70,29 @@ li a:hover {
 }
 .slidecontainer {
     width: 100%;
+}
+.component-container {
+    display: grid;
+    grid-auto-rows: 50%;
+    grid-template-columns:  50% 50%;
+    grid-auto-flow: row;
+}
+.logo-text{
+    margin:5px;
+}
+
+.card-container{
+    width: 50%;
+}
+
+span{
+    display: block;
+    margin-bottom: 80px;
+}
+
+.bottom-space{
+     margin-bottom: 80px;
+}
+.component-name{
+    font-size:25px;
 }

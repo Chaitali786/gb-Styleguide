@@ -1,192 +1,206 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-    <title >Styleguide Web Page</title>
-    <link rel="stylesheet" type="text/css"href="index.css">
-    <link rel="stylesheet" type="text/css"href="page_layout.css">
-     <style>
-         body{
-             margin: 0;
-         }
-         
-    </style>
+    <title>Styleguide Web Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="page_layout.css">
+    <!--link rel="stylesheet" type="text/css"href="card.css"-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
+<body>
+    <ul>
+        <li><a href="index.html">Small component </a></li>
+        <li><a href="slideshow.html">Silideshow </a></li>
+        <li><a href="card.html">Card & Card list </a></li>
+        <li><a href="navbar.html">Navbar </a></li>
+    </ul>
 
-<body> 
-        <ul>
-  <li><a href="index.html">Small component </a></li>
-  <li><a href="slideshow.html">Silideshow </a></li>
-  <li><a href="card.html">Card & Card list </a></li>
-   <li><a href="navbar.html">Navbar </a></li>     
-</ul>
-    <h1>single card</h1>
-    <div class ="card-container">
-    <div class="gb-card">
-        <img src="img/cards/card1.png">
-        <div class="middle-container">
-        <div class="gb-title-tiny gb-text-white large-text-card">Fashion</div>
-        <div class="gb-btn-card">
-        <a class="gb-btn gb-btn-small gb-btn-white gb-text-orange  btn-inside">Following</a>
-           
+    <h1>card 1</h1>
+    <div class="card-container">
+        <div class="gb-card1">
+            <div class="gb-card1-top-container">
+                <div class="gb-text-bold gb-text-white gb-card1-main-text gb-card1-large-title gb-title">Fashion</div>
+                <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card1-btn gb-text-bold">Following</a>
             </div>
+            <div class="gb-card1-bottom-container">
+                <div class="gb-title gb-card1-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+                    145K Followers
+                </div>
+                <div class="gb-card1-icon-card">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+                </div>
             </div>
-        <div class="bottom-container">
-        <div class="small-text-card gb-title-tiny gb-text-white ">
-            
-            145K Followers
         </div>
-        <div class="icon-card"> 
-            <img src="img/cards/cardimg1.png">
-            <img src="img/cards/cardimg2.png">
-            <img src="img/cards/cardimg3.png">
-            <img src="img/cards/cardimg4.png">
-            <img src="img/cards/cardimg5.png">
-            </div>
-            </div>
     </div>
-    
+    <h1>card 2</h1>
+    <div class="gb-card2">
+        <div class=" gb-title gb-text-white gb-title-xlarge gb-card2-main-text gb-text-bold">SCIENCE CHANNEL</div>
+        <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card2-btn gb-text-bold">Following</a>
+        <div class="gb-title gb-card2-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+            234K Followers
+        </div>
+        <div class="card2-icon">
+            <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+            <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+            <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+            <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+            <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+        </div>
+    </div>
+
+    <h1>card 3</h1>
+    <div class="gb-card3">
+        <div class="gb-title gb-text-white gb-card3-large-text gb-card3-main-text gb-text-bold">Astronauts could land on Red Planet by 2039</div>
+        <div class="gb-card3-bottom-container gb-text-white-opacity-50 gb-card3-small-text">
+
+            <div class="card3-bottom-left">
+
+                <svg class="gb-icon-white-opacity-50 gb-icon-tiny card3-icon">
+                    <use xlink:href="svg-def.svg#card3-icon1"></use>
+                </svg>SPACE.com
+
+
+                <svg class="card3-bottom-icon2 gb-icon-white-opacity-50 gb-icon-tiny card3-icon">
+                    <use xlink:href="svg-def.svg#card3-icon2"></use>
+                </svg>
+                20m ago
+            </div>
+            <div class="card3-bottom-right">
+                <div>SCIENCE</div>
+                <svg class="gb-icon-white-opacity-50 gb-icon-line card3-icon-right">
+                    <use xlink:href="svg-def.svg#card3-icon3"></use>
+                </svg>
+            </div>
+        </div>
     </div>
     <h1>card list</h1>
     <div class="gb-card-list">
-     <div class="gb-card">
-        <img src="img/cards/card1.png">
-        <div class="middle-container">
-        <div class="gb-title-tiny gb-text-white large-text-card">Fashion</div>
-        <div class="gb-btn-card">
-        <a class="gb-btn gb-btn-small gb-btn-white gb-text-orange  btn-inside">Following</a>
-           
+        <div class="gb-card1">
+            <div class="gb-card1-top-container">
+                <div class="gb-text-bold gb-text-white gb-card1-main-text gb-card1-large-title gb-title">Fashion</div>
+                <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card1-btn gb-text-bold">Following</a>
             </div>
+            <div class="gb-card1-bottom-container">
+                <div class="gb-title gb-card1-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+                    145K Followers
+                </div>
+                <div class="gb-card1-icon-card">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+                </div>
             </div>
-        <div class="bottom-container">
-        <div class="small-text-card gb-title-tiny gb-text-white ">
-            
-            145K Followers
         </div>
-        <div class="icon-card"> 
-            <img src="img/cards/cardimg1.png">
-            <img src="img/cards/cardimg2.png">
-            <img src="img/cards/cardimg3.png">
-            <img src="img/cards/cardimg4.png">
-            <img src="img/cards/cardimg5.png">
+        <div class="gb-card1">
+            <div class="gb-card1-top-container">
+                <div class="gb-text-bold gb-text-white gb-card1-main-text gb-card1-large-title gb-title">Fashion</div>
+                <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card1-btn gb-text-bold">Following</a>
             </div>
+            <div class="gb-card1-bottom-container">
+                <div class="gb-title gb-card1-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+                    145K Followers
+                </div>
+                <div class="gb-card1-icon-card">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+                </div>
             </div>
-    </div>
-         <div class="gb-card">
-        <img src="img/cards/card3.png">
-        <div class="middle-container">
-        <div class="gb-title-tiny gb-text-white large-text-card">Science</div>
-        <div class="gb-btn-card">
-        <a class="gb-btn gb-btn-small gb-btn-white gb-text-orange  btn-inside">Following</a>
-           
-            </div>
-            </div>
-        <div class="bottom-container">
-        <div class="small-text-card gb-title-tiny gb-text-white ">
-            
-            243K Followers
         </div>
-        <div class="icon-card"> 
-            <img src="img/cards/cardimg1.png">
-            <img src="img/cards/cardimg2.png">
-            <img src="img/cards/cardimg3.png">
-            <img src="img/cards/cardimg4.png">
-            <img src="img/cards/cardimg5.png">
+        <div class="gb-card1">
+            <div class="gb-card1-top-container">
+                <div class="gb-text-bold gb-text-white gb-card1-main-text gb-card1-large-title gb-title">Fashion</div>
+                <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card1-btn gb-text-bold">Following</a>
             </div>
+            <div class="gb-card1-bottom-container">
+                <div class="gb-title gb-card1-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+                    145K Followers
+                </div>
+                <div class="gb-card1-icon-card">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+                </div>
             </div>
-    </div>
-         <div class="gb-card">
-        <img src="img/cards/card4.png">
-        <div class="middle-container">
-        <div class="gb-title-tiny gb-text-white large-text-card">Technology</div>
-        <div class="gb-btn-card">
-        <a class="gb-btn gb-btn-small gb-btn-white gb-text-orange  btn-inside">Following</a>
-           
-            </div>
-            </div>
-        <div class="bottom-container">
-        <div class="small-text-card gb-title-tiny gb-text-white ">
-            
-            269K Followers
         </div>
-        <div class="icon-card"> 
-            <img src="img/cards/cardimg1.png">
-            <img src="img/cards/cardimg2.png">
-            <img src="img/cards/cardimg3.png">
-            <img src="img/cards/cardimg4.png">
-            <img src="img/cards/cardimg5.png">
+        <div class="gb-card1">
+            <div class="gb-card1-top-container">
+                <div class="gb-text-bold gb-text-white gb-card1-main-text gb-card1-large-title gb-title">Fashion</div>
+                <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card1-btn gb-text-bold">Following</a>
             </div>
+            <div class="gb-card1-bottom-container">
+                <div class="gb-title gb-card1-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+                    145K Followers
+                </div>
+                <div class="gb-card1-icon-card">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+                </div>
             </div>
-    </div>
-         <div class="gb-card">
-        <img src="img/cards/card2.png">
-        <div class="middle-container">
-        <div class="gb-title-tiny gb-text-white large-text-card">Environment</div>
-        <div class="gb-btn-card">
-        <a class="gb-btn gb-btn-small gb-btn-white gb-text-orange  btn-inside">Following</a>
-           
-            </div>
-            </div>
-        <div class="bottom-container">
-        <div class="small-text-card gb-title-tiny gb-text-white ">
-            
-            673K Followers
         </div>
-        <div class="icon-card"> 
-            <img src="img/cards/cardimg1.png">
-            <img src="img/cards/cardimg2.png">
-            <img src="img/cards/cardimg3.png">
-            <img src="img/cards/cardimg4.png">
-            <img src="img/cards/cardimg5.png">
+
+        <div class="gb-card1">
+            <div class="gb-card1-top-container">
+                <div class="gb-text-bold gb-text-white gb-card1-main-text gb-card1-large-title gb-title">Fashion</div>
+                <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card1-btn gb-text-bold">Following</a>
             </div>
+            <div class="gb-card1-bottom-container">
+                <div class="gb-title gb-card1-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+                    145K Followers
+                </div>
+                <div class="gb-card1-icon-card">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+                </div>
             </div>
-    </div>
-    
-     <div class="gb-card">
-        <img src="img/cards/card1.png">
-        <div class="middle-container">
-        <div class="gb-title-tiny gb-text-white large-text-card">Fashion</div>
-        <div class="gb-btn-card">
-        <a class="gb-btn gb-btn-small gb-btn-white gb-text-orange  btn-inside">Following</a>
-           
-            </div>
-            </div>
-        <div class="bottom-container">
-        <div class="small-text-card gb-title-tiny gb-text-white ">
-            
-            145K Followers
         </div>
-        <div class="icon-card"> 
-            <img src="img/cards/cardimg1.png">
-            <img src="img/cards/cardimg2.png">
-            <img src="img/cards/cardimg3.png">
-            <img src="img/cards/cardimg4.png">
-            <img src="img/cards/cardimg5.png">
+        <div class="gb-card1">
+            <div class="gb-card1-top-container">
+                <div class="gb-text-bold gb-text-white gb-card1-main-text gb-card1-large-title gb-title">Fashion</div>
+                <a class="gb-title gb-btn gb-btn-small gb-btn-white gb-text-orange  gb-card1-btn gb-text-bold">Following</a>
             </div>
+            <div class="gb-card1-bottom-container">
+                <div class="gb-title gb-card1-small-text gb-title-tiny gb-text-white gb-text-bold">
+
+                    145K Followers
+                </div>
+                <div class="gb-card1-icon-card">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg1.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg2.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg3.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg4.png">
+                    <img class="gb-icon-small gb-icon-round" src="img/cards/cardimg5.png">
+                </div>
             </div>
-    </div>
-         <div class="gb-card">
-        <img src="img/cards/card3.png">
-        <div class="middle-container">
-        <div class="gb-title-tiny gb-text-white large-text-card">Science</div>
-        <div class="gb-btn-card">
-        <a class="gb-btn gb-btn-small gb-btn-white gb-text-orange  btn-inside">Following</a>
-           
-            </div>
-            </div>
-        <div class="bottom-container">
-        <div class="small-text-card gb-title-tiny gb-text-white ">
-            
-            243K Followers
         </div>
-        <div class="icon-card"> 
-            <img src="img/cards/cardimg1.png">
-            <img src="img/cards/cardimg2.png">
-            <img src="img/cards/cardimg3.png">
-            <img src="img/cards/cardimg4.png">
-            <img src="img/cards/cardimg5.png">
-            </div>
-            </div>
     </div>
-    
-    </div>
-    
 </body>
+
+</html>
