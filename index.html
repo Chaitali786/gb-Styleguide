@@ -1,20 +1,19 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type = "text/css">
-        <title >Styleguide Web Page</title>
-        <link rel="stylesheet" type="text/css"href="index.css">
-        <link rel="stylesheet" type="text/css"href="page_layout.css">
-    </head>
-    <body >  
-        <ul>
-            <li><a href="index.html">Small component </a></li>
-            <li><a href="slideshow.html">Silideshow </a></li>
-            <li><a href="card.html">Card & Card list </a></li>
-            <li><a href="navbar.html">Navbar </a></li>     
-        </ul>
-        <svg  style ="display:none;" xmlns="http://www.w3.org/2000/svg">
+
+<head>
+     <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type="text/css">
+    <title>Styleguide Web Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="page_layout.css">
+</head>
+
+<body>
+    <svg  style ="display:none;" xmlns="http://www.w3.org/2000/svg">
             <def>
                 <symbol id="profile-icon" viewBox="0 0 51 51">
                     <g>
@@ -25,9 +24,15 @@
                 </symbol>
             </def>
         </svg>
+    <ul>
+        <li><a href="index.html">Small component </a></li>
+        <li><a href="slideshow.html">Silideshow </a></li>
+        <li><a href="card.html">Card & Card list </a></li>
+        <li><a href="navbar.html">Navbar </a></li>
+    </ul>
 
-        <div>
-            <div class="component-name" >TextSize</div>
+    <div>
+        <div class="component-name" >TextSize</div>
             <div class="div-box" >
                 <div> gb-title-xxlarge </div> 
                 <div class="section-title gb-title-xxlarge">Sample Text.</div>
@@ -86,186 +91,151 @@
                 <div class = "title-text">gb-normal-textbox </div>
                 <div>
                     <label class="gb-icon-small">
-                        <svg class=" icon gb-icon-orange">
+                        <svg class=" icon gb-icon-white gb-icon-small">
                         <use xlink:href="#profile-icon"></use>
                         </svg>
                         <input type="text"  class="gb-normal-textbox"  value="Name">
                     </label>
                 </div>
-                <div class = "title-text">gb-disable-textbox </div>
-                <div>
-                    <label class="gb-icon-small">
-                        <svg class=" icon gb-icon-orange">
-                        <use xlink:href="#profile-icon"></use>
-                        </svg>
-                        <input type="text" class="gb-disable-textbox"  value="Fill In Text"/>
-                    </label>
-                    <!--<input type="text" class="gb-disable-textbox"  placeholder="Fill In Text"/>-->
-                </div>
-                
-                <div class = "title-text">gb-focustextbox </div>
-                <div>
-                     <label class="gb-icon-small">
-                        <svg class=" icon gb-icon-orange">
-                        <use xlink:href="#profile-icon"></use>
-                        </svg>
-                        <input  class="gb-focus-box" type="text" value= "  Your Name"  autofocus />
-                    </label>
-                    
-                </div>
-                <div class = "title-text">gb-errormsgbox </div>
-                <div>
-                     <label class="gb-icon-small">
-                        <svg class=" icon gb-icon-orange">
-                        <use xlink:href="#profile-icon"></use>
-                        </svg>
-                        <input  class="gb-errormsgbox" type="text" value= "Error" >
-                        <br><p class="error_msg"> Error Message....</p>
-                    </label>
-                    
-                    
-                </div>
             </div>
         </div>
-        <div class="component-name">Button Color
-            <div class="div-box">
-                <p class="bottom-space">
-                    gb-btn-primary  : 
-                    <a href="#" class="gb-btn gb-btn-large gb-btn-primary gb-text-white">Get Started</a>
-                </p >
-                <p class="bottom-space">
-                    gb-btn-outlined : 
-                    <a class="gb-btn gb-btn-large gb-btn-outlined gb-text-white">Continue</a>
-                </p>
-                <p class="bottom-space">
-                    gb-btn-white    : 
-                    <a class="gb-btn gb-btn-large gb-btn-white gb-text-orange">Following</a>
-                </p>
-            </div>
+    <div class="title-text">BUTTON COLOR
+        <br>
+        <div class="div-box">
+            <span>
+                gb-btn-primary :
+                <a href="#" class="gb-btn gb-btn-large gb-btn-primary gb-text-white">Get Started</a>
+            </span>
+            <span>
+                gb-btn-outlined :
+                <a class="gb-btn gb-btn-large gb-btn-outlined gb-text-white">Continue</a>
+            </span>
+            <span>
+                gb-btn-white :
+                <a class="gb-btn gb-btn-large gb-btn-white gb-text-orange">Following</a>
+            </span>
         </div>
-        <div class="component-name">Button Size
-            <div class="div-box">
-                <p class="bottom-space">
-                    gb-btn-large : 
-                    <a class="gb-btn gb-btn-large gb-btn-primary gb-text-white">Get Started</a>
-                </p>
-                <p class="bottom-space">
-                    gb-btn-small : 
-                    <a class="gb-btn gb-btn-small gb-btn-primary gb-text-white">Continue</a>
-                </p>
-                <p class="bottom-space">
-                    gb-btn-circle-large    : 
-                    <button class="gb-btn gb-btn-circle-large gb-btn-primary gb-text-white"></button>
-                </p>
-                <p class="bottom-space">
-                    gb-btn-circle-medium    : 
-                    <button class="gb-btn gb-btn-circle-medium gb-btn-primary gb-text-white"></button>
-                </p>
-                <p class="bottom-space">
-                    gb-btn-circle-large    : 
-                    <button class="gb-btn gb-btn-circle-small gb-btn-primary gb-text-white"></button>
-                </p>
-            </div>
-        </div>
-        <div class="component-name">Color
-            <div class="div-box">
-                <p class="bottom-space">gb-color-primary: <div class="color-box gb-bg-primary"></div></p>
-                <p class="bottom-space">gb-color-secondary: <div class="color-box gb-bg-secondary"></div></p>
-                <p class="bottom-space">gb-color-white: <div class="color-box gb-bg-white"></div></p>
-                </div>
-        </div>
-        <div class="component-name">Avatar
-            <div class ="div-box">
-                <p class="bottom-space">
-                    gb-avatar-large: <img class="gb-avatar gb-avatar-small" src="img/avatar.png">
-                </p>
-                <p class="bottom-space">    
-                    gb-avatar-small : <img class="gb-avatar gb-avatar-large" src="img/avatar.png">
-                </p>
-            </div>
-        </div>
-        <div class="component-name">Logo
-            <div class="div-box" >
-                <p class="bottom-space">
-                    gb-logo-large: <object class="gb-logo-large" data="img/logo/logo-large.svg" type="image/svg+xml"></object>
-                </p>
-                <p class="bottom-space">
-                    gb-logo-small : <object class="gb-logo-small" data="img/logo/logo-small.svg" type="image/svg+xml"></object>
-                </p>
-            </div>
-        </div>
-        <div class="component-name">Icon Color
-            <div class="div-box " >
-                <p class="bottom-space">
-                    gb-icon-white:
-                <div class="gb-icon-large"> <svg class="gb-icon-white" >
-                    <use xlink:href="#profile-icon"></use>
-                    </svg>
-                </div>
-                </p>
-            <p class="bottom-space">
-                gb-icon-orange :
-            <div class="gb-icon-large"><svg class="gb-icon-orange" >
-                <use xlink:href="#profile-icon"></use>
-                </svg>
-            </div>
-            </p>
-        <p class="bottom-space">
-            gb-icon-white-opacity-50 : <div class="gb-icon-large"><svg class="gb-icon-white-opacity-50" >
-        <use xlink:href="#profile-icon"></use>
-        </svg>
-        </div>
-        </p>
     </div>
+    <div class="title-text">BUTTON Size
+        <br>
+        <div class="div-box">
 
-</div>
-        <div class="component-name">Icon Size
-            <div class="div-box " >
-            <p class="bottom-space">
-                gb-icon-large:<div class="gb-icon-large"> <svg class="gb-icon-white" >
-                                <use xlink:href="#profile-icon"></use>
-                               </svg>
-                            </div>
-                </p>
-            <p class="bottom-space">
-                gb-icon-medium :<div class="gb-icon-medium"><svg class="gb-icon-white" >
-                                <use xlink:href="#profile-icon"></use>
-                            </svg>
-                                </div>
-            </p>
-            <p class="bottom-space">
-                gb-icon-small :<div class="gb-icon-small"><svg class="gb-icon-white" >
-                                <use xlink:href="#profile-icon"></use>
-                            </svg>
-                            </div>
-            </p>
-            <p class="bottom-space">
-                gb-icon-tiny : <div class="gb-icon-tiny"><svg class="gb-icon-white">
-                                <use xlink:href="#profile-icon"></use>
-                                </svg>
-                                </div>
-            </p>
-            </div>
+            <span>gb-btn-large :
+
+                <a class="gb-btn gb-btn-large gb-btn-primary gb-text-white">Get Started</a>
+            </span>
+
+            <span>
+                gb-btn-small :
+                <a class="gb-btn gb-btn-small gb-btn-primary gb-text-white">Continue</a>
+            </span>
+
+            <span>
+                gb-btn-circle-large :
+                <button class="gb-btn gb-btn-circle-large gb-btn-primary gb-text-white"></button>
+            </span>
+
+            <span>
+                gb-btn-circle-medium :
+                <button class="gb-btn gb-btn-circle-medium gb-btn-primary gb-text-white"></button>
+            </span>
+
+            <span>
+                gb-btn-circle-large :
+                <button class="gb-btn gb-btn-circle-small gb-btn-primary gb-text-white"></button>
+            </span>
+        </div>
+    </div>
+    <div class="title-text">background Color
+        <div class="div-box">
+            <br>
+            gb-color-primary: <div class="color-box gb-background-primary"></div>
+            gb-color-secondary: <div class="color-box gb-background-secondary"></div>
+            gb-color-white: <div class="color-box gb-background-white"></div>
+            <br>
+        </div>
+    </div>
+    <div class="title-text">Avatar
+        <div class="div-box">
+            <br>
+            <span>gb-avatar-large: <img class="gb-avatar gb-avatar-large" src="img/avatar.png"></span>
+            <br><br><br>
+            <span>gb-avatar-small : <img class="gb-avatar gb-avatar-small" src="img/avatar.png"></span>
+            <br>
+        </div>
+    </div>
+    <div class="title-text">Logo
+        <br>
+        <div class="div-box">
+            <span>gb-logo-large: <object class="gb-logo-large" data="img/logo/logo-large.svg" type="image/svg+xml"></object></span>
+
+            <span>gb-logo-small : <object class="gb-logo-small" data="img/logo/logo-small.svg" type="image/svg+xml"></object></span>
+        </div>
+        <br>
+    </div>
+    <div class="title-text">Icon Color
+        <br>
+        <div class="div-box ">
+            <span>gb-icon-white: <svg class="gb-icon-white gb-icon-large">
+                    <use xlink:href="svg-def.svg#profile-icon"></use>
+                </svg></span>
+
+
+            <span>gb-icon-orange :<svg class="gb-icon-orange gb-icon-large">
+                    <use xlink:href="svg-def.svg#profile-icon"></use>
+                </svg></span>
+
+
+            <span>gb-icon-white-opacity-50 : <svg class="gb-icon-white-opacity-50 gb-icon-large">
+                    <use xlink:href="svg-def.svg#profile-icon"></use>
+                </svg></span>
 
         </div>
-        <div class="component-name">Round Range Slider
-            <div class="div-box">
-                gb-roundrange-slider
-                <div class="slidecontainer">
-                <input type="range" min="1" max="100" value="50" class="gb-slider" id="myRange">
+        <br>
+    </div>
+    <div class="title-text">Icon Size
+        <br>
+        <div class="div-box">
+            <span>gb-icon-large: <svg class="gb-icon-white gb-icon-large">
+                    <use xlink:href="svg-def.svg#profile-icon"></use>
+                </svg></span>
+
+            <span>gb-icon-medium :<svg class="gb-icon-white gb-icon-medium">
+                    <use xlink:href="svg-def.svg#profile-icon"></use>
+                </svg></span>
+
+            <span>gb-icon-small :<svg class="gb-icon-white gb-icon-small">
+                    <use xlink:href="svg-def.svg#profile-icon"></use>
+                </svg></span>
+
+            <span>gb-icon-tiny : <svg class="gb-icon-white gb-icon-tiny">
+                    <use xlink:href="svg-def.svg#profile-icon"></use>
+                </svg></span>
+
+        </div>
+        <br>
+    </div>
+    <div>
+        <h1>Round Range Slider</h1>
+        <div class="div-box">
+            gb-roundrange-slider
+            <div class="slidecontainer">
+                <p id="starting_value"></p>
+                <input type="range" min="1" max="100" value="30" class="gb-slider" id="myRange" onchange="onRangeChange()">
                 <p id="demo">Value:</p>
-                </div>
+
             </div>
         </div>
-        <div class="component-name">Google Map
-        <div id="map"  class="gb-googleMap">
+    </div>
+    <div>
+        <h1>Google Map</h1>
+        <div id="map" class="gb-googleMap">
         </div>
-        </div>
-        <script type="text/javascript" src="scripts/slider.js"></script>
-        <script type="text/javascript" src="scripts/map.js"></script>
-        <script 
-        src="http://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false&key=AIzaSyAFxBSTTS8-q2X2D8ZkF-0QFTH64QjD5eM&callback=myMap" >      
-</script>
+    </div>
+    <script type="text/javascript" src="scripts/slider.js"></script>
+    <script type="text/javascript" src="scripts/map.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false&key=AIzaSyAFxBSTTS8-q2X2D8ZkF-0QFTH64QjD5eM&callback=myMap">
+    </script>
 </body>
-</html>
 
+</html>
